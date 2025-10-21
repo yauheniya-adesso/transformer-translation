@@ -1,0 +1,19 @@
+# Install uv: https://docs.astral.sh/uv/getting-started/installation/
+
+# uv venv --python 3.11
+# source .venv/bin/activate
+# uv pip install -r requirements.txt
+
+pip
+
+# TensorFlow for Apple Silicon
+tensorflow-macos
+
+# Data preprocessing
+spacy
+nltk
+torchtext
+
+# Progress bars
+tqdm
+
