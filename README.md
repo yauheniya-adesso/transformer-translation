@@ -56,12 +56,12 @@ The script will:
 ## Notes
 
 Training may take several hours depending on hardware.
-
-Suggested EPOCHS: 50–100 for meaningful results.
+- 300 epochs on MacBook Pro Apple M4 Pro Chip --> 09:36 – 15:50
 
 The script uses a batch size of 32 by default.
 
-Sample Output
+Sample output:
+
 ```text
 English: A man is playing a guitar.
 German : Ein Mann spielt Gitarre.
@@ -75,4 +75,4 @@ BLEU score is printed at the end:
 Final BLEU score on full test set: 28.45
 ```
 
-BLEU (Bilingual Evaluation Understudy) is a metric that measures how closely a machine-generated translation matches one or more reference translations, based on overlapping n-grams. Scores range from 0 to 1 (or 0–100%), where higher values indicate better translations; roughly, scores above 30–40% are considered reasonable for full-sentence translations, while scores below 10–15% usually indicate poor quality.
+[Bilingual Evaluation Understudy (BLUE)](https://huggingface.co/spaces/evaluate-metric/bleu) is a metric that measures how closely a machine-generated translation matches one or more reference translations, based on overlapping n-grams. Scores range from 0 to 1 (or 0–100%), where higher values indicate better translations; roughly, scores above 30–40% are considered reasonable for full-sentence translations, while scores below 10–15% usually indicate poor quality.
