@@ -1,9 +1,12 @@
 notes/
 data/*
-!data/.gitkeep
-!data/raw/.gitkeep
-!data/tokenized/.gitkeep
-!data/encoded/.gitkeep
+data/encoded/*
+!data/encoded/
+data/raw/*
+!data/raw/
+data/tokenized/*
+!data/tokenized/
+
 
 # Created by https://www.toptal.com/developers/gitignore/api/python,macos,windows,linux,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,macos,windows,linux,visualstudiocode
